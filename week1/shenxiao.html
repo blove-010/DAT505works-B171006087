@@ -1,0 +1,67 @@
+<html>
+  <head>
+<title>生肖</title>
+  </head>
+
+<body>
+
+  <script type="text/JavaScript">
+
+  function checkYear() {
+    var disyear = parseInt(document.getElementById("birthyear").value);
+    disyear =disyear % 12;
+    switch (disyear) {
+      case 0:
+      document.getElementById("showZodiac").innerHTML="你→猴";
+        break;
+        case 1:
+        document.getElementById("showZodiac").innerHTML="你→鸡";
+          break;
+          case 2:
+          document.getElementById("showZodiac").innerHTML="你→狗";
+            break;
+            case 3:
+            document.getElementById("showZodiac").innerHTML="你→猪";
+              break;
+              case 4:
+              document.getElementById("showZodiac").innerHTML="你→鼠";
+                break;
+                case 5:
+                document.getElementById("showZodiac").innerHTML="你→牛";
+                  break;
+                  case 6:
+                  document.getElementById("showZodiac").innerHTML="你→虎";
+                    break;
+                    case 7:
+                    document.getElementById("showZodiac").innerHTML="你→兔";
+                      break;
+                      case 8:
+                      document.getElementById("showZodiac").innerHTML="你→龙";
+                        break;
+                        case 9:
+                        document.getElementById("showZodiac").innerHTML="你→蛇";
+                          break;
+                          case 10:
+                          document.getElementById("showZodiac").innerHTML="你→马";
+                            break;
+                            case 11:
+                            document.getElementById("showZodiac").innerHTML="你→羊";
+                              break;
+      default:
+    }
+
+  }
+
+  </script>
+<form id="form1">
+
+  哪年出身的:<br><input type="text" id="birthyear"maxLength=4>
+  <input type="button" value="CHECK" onclick="checkYear()">
+  <div id="showZodiac">
+  </div>
+</form>
+
+
+
+</body>
+</html>
