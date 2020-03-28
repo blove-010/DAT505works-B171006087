@@ -1,0 +1,47 @@
+<html>
+  <head>
+<title>手机号</title>
+  </head>
+
+<body>
+
+  <script type="text/JavaScript">
+  function CheckNumber(){
+
+
+    var pnumber =document.getElementById("pnumber").value;
+    if(pnumber.length < 11){
+      document.getElementById("showtxt").innerHTML= "短了";
+
+    }
+    else if (isNaN(pnumber)) {
+      document.getElementById("showtxt").innerHTML="写数字";
+
+
+    }
+    else if (pnumber.substr(0,1) !="1") {
+      document.getElementById("showtxt").innerHTML="要中国号码";
+
+    }
+
+    else{
+      document.getElementById("showtxt").innerHTML="完美(<ゝω·)☆";
+
+    }
+  }
+
+    </script>
+  <form id="form1">
+    交出手机号:<br><input type="text" id="pnumber" maxLength=11>
+    <input type="button" value="CHECK" onclick="CheckNumber()">
+    <div id="showtxt">
+
+    </div>
+
+
+  </form>
+
+
+
+  </body>
+  </html>
