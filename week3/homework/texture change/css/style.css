@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+.threejs-btn-wrapper{
+
+  position:absolute;
+
+left:100px;
+
+top:120px;
+
+}

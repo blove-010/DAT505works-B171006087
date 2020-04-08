@@ -1,0 +1,33 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# �������ļ�:08.04.2020 14:05:54
+
+newmtl 01___Default
+	Ns 29.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 1.0710 1.0710 1.0710
+	Ke 0.0000 0.0000 0.0000
+	map_Ka GGGAM84_024.jpg
+	map_Kd GGGAM84_024.jpg
+	map_bump AM84_024_M107_Diff.jpg
+	bump AM84_024_M107_Diff.jpg
+	map_refl AM84_024_M107_Bump.jpg
+
+newmtl 02___Default
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.6390 0.6390 0.6390
+	Ke 0.0000 0.0000 0.0000
+	map_Ka AM84_024_M107_Wood.jpg
+	map_Kd AM84_024_M107_Wood.jpg
